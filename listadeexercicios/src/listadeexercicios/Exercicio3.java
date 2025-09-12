@@ -4,32 +4,32 @@ import java.util.Scanner;
 
 public class Exercicio3 {
 
-    public static void main(String[] args) {
-        
-        Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) {
 
-        // Variáveis (float)
-        float salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
+		Scanner leia = new Scanner(System.in);
 
-        // Entrada de dados
-        System.out.print("Digite o Salário Bruto: ");
-        salarioBruto = leia.nextFloat();
+		// Variáveis (float)
+		float salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
 
-        System.out.print("Digite o Adicional Noturno: ");
-        adicionalNoturno = leia.nextFloat();
+		// Entrada de dados
+		System.out.print("Digite o Salário Bruto: ");
+		salarioBruto = leia.nextFloat();
 
-        System.out.print("Digite as Horas Extras: ");
-        horasExtras = leia.nextFloat();
+		System.out.print("Digite o Adicional Noturno: ");
+		adicionalNoturno = leia.nextFloat();
 
-        System.out.print("Digite os Descontos: ");
-        descontos = leia.nextFloat();
+		System.out.print("Digite as Horas Extras: ");
+		horasExtras = leia.nextFloat();
 
-        // salário líquido = bruto + adicional + (horas * 5) - descontos
-        salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
+		System.out.print("Digite os Descontos: ");
+		descontos = leia.nextFloat();
 
-        // Saída formatada
-        System.out.printf("Salário Líquido: %.2f%n", salarioLiquido);
+		// salário líquido = bruto + adicional + (horas * 5) - descontos
+		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 
-        leia.close();
-    }
+		// Saída formatada
+		System.out.printf("Salário Líquido: %.2f%n", salarioLiquido);
+
+		leia.close();
+	}
 }
