@@ -58,8 +58,6 @@ public class Exercicio5 {
              System.out.println("Código inválido!");
 
 		}
-
 		leia.close();
-
 	}
 }

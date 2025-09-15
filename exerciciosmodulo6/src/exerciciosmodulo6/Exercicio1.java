@@ -23,13 +23,13 @@ public class Exercicio1 {
 
 		if (soma > numeroC) {
 			System.out.println("A Soma de A + B é Maior do que C");
-		}
-		if (soma < numeroC) {
+		} else if (soma < numeroC) {
 			System.out.println("A Soma de A + B é Menor do que C");
-		} else if (soma == numeroC) {
+		} else if(soma == numeroC) {
 			System.out.println("A Soma de A + B é Igual a C");
+		} else {
+		    System.out.println("Erro: valor inesperado!");
 		}
-
 		leia.close();
 
 	}

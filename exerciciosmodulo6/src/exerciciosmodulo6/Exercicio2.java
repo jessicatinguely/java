@@ -15,13 +15,15 @@ public class Exercicio2 {
 		
 		if(numero>0 && numero%2 ==0) {
 			System.out.printf("O Número %d é par e positivo!", numero);
-		}if(numero>0 && numero%2 !=0) {
+		}else if(numero>0 && numero%2 !=0) {
 			System.out.printf("O Número %d é ímpar e positivo!", numero);
-		}if(numero<0 && numero%2 ==0) {
+		}else if(numero<0 && numero%2 ==0) {
 				System.out.printf("O Número %d é par e negativo!", numero);
-		}if(numero<0 && numero%2 != 0) {
+		}else if(numero<0 && numero%2 != 0) {
 				System.out.printf("O Número %d é ímpar e negativo!", numero);
-			}
+			}else {
+	            System.out.println("O número é zero!");
+	        }
 		
 			
 			leia.close();
