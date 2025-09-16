@@ -18,11 +18,10 @@ public class Exercicio5 {
 		do {
 
 			System.out.println("Digite um número inteiro (zero para encerrar o programa): ");
-			numero = leia.nextInt();
 
 			 // validação: só aceita inteiros
 	        while (!leia.hasNextInt()) {
-	            System.out.print("Entrada inválida! Digite um inteiro (zero para encerrar): ");
+	            System.out.println("Entrada inválida! Digite um inteiro (zero para encerrar): ");
 	            leia.next(); // descarta o token inválido
 	        }
 	        numero = leia.nextInt();

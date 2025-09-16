@@ -31,7 +31,7 @@ public class Exercicio3 {
 		    }
 		}
 		// Saídas
-		System.out.println("\n========== RESULTADO FINAL ==========");
+		System.out.println("\n=========== RESULTADO FINAL ===========");
 		System.out.printf("Total de pessoas menores de 21 anos: %d%n", qtdMenor21);
 		System.out.printf("Total de pessoas maiores de 50 anos: %d%n", qtdMaior50);
 

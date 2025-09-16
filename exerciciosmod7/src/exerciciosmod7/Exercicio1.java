@@ -15,10 +15,10 @@ public class Exercicio1 {
 
 		// Entrada dos limites do intervalo
 
-		System.out.println("Digite o primeiro número do intervalo: ");
+		System.out.printf("Digite o primeiro número do intervalo: %n");
 		num1 = leia.nextInt();
 
-		System.out.println("Digite último número do intervalo: ");
+		System.out.printf("Digite último número do intervalo: %n");
 		num2 = leia.nextInt();
 
 		// Validação do intervalo:
