@@ -3,7 +3,13 @@ package colecoes;
 public class Wrapper {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		int numero = 10;
+		
+		Integer idade = 30;
+		
+		System.out.println(numero);
+		System.out.println(idade);
 
 	}
 
