@@ -1,9 +1,9 @@
 
-package arrays;
+package exerciciosmod8;
 
 import java.util.Scanner;
 
-public class Exe04 {
+public class Exercicio4 {
 
 	public static void main(String[] args) {
 		
