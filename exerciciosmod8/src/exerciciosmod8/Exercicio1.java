@@ -33,15 +33,14 @@ public class Exercicio1 {
 				break; // sair do loop para o caso em questáo serve pois os números ão se repetem.
 			}
 		}
-		
-        // Caso o número pesquisado não tenha sido encontrado
+
+		// Caso o número pesquisado não tenha sido encontrado
 		if (!busca) {
 
 			System.out.printf("O número %d não foi encontrado!%n", numeroBusca);
 		}
 
 		leia.close();
-
 	}
 
 }
