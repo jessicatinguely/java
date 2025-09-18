@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.HashSet;
 import java.util.Set;
 
-public class exercicio4 {
+public class Exercicio4 {
 
 	 public static void main(String[] args) {
 
